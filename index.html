@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For My Valentine ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- HOME PAGE -->
+<div id="homeScreen" class="home-screen">
+  <div class="home-card">
+    <h1>💖 Will you be my Valentine? luvv 💖</h1>
+    <p>You make my life brighter every day 🥹❤️</p>
+
+    <div class="btn-group">
+      <button class="yes-btn" onclick="sayYes()">YES 💕</button>
+      <button class="no-btn" id="noBtn">NO 😜</button>
+      <div id="panda">🤭</div>
+    </div>
+    <p>Don't waste your time by clicking NO 🤭 </p>
+  </div>
+</div>
+
+<div id="mainContent" class="hidden">
+  <!-- YOUR EXISTING WEBSITE CONTENT GOES HERE -->
+
+
+  <div class="container">
+    <h1>💖 Hello luvv, Happy Valentine’s Day 💖</h1>
+    <p class="subtitle">To the love of my life 🥰</p>
+
+    <!-- Timer -->
+    <div class="timer-box">
+      <h2>⏳ Time Since We expressed our feelings to each other 🥰</h2>
+      <p id="timer">Loading...</p>
+    </div>
+
+    <!-- Photos -->
+    <div class="gallery">
+      <div class="photo-frame"><img src="images/pic1.jpg"></div>
+      <div class="photo-frame"><img src="images/pic2.jpg"></div>
+      <div class="photo-frame"><img src="images/pic3.jpg"></div>
+    </div>
+
+<!-- First Pictures Together -->
+<div class="first-pic-section">
+  <h2>💑 Our First Pictures Together 💑</h2>
+
+  <div class="first-pics">
+    <div class="first-pic-frame">
+      <img src="images/first1.jpg" alt="First Pic 1">
+      <span class="pic-label">First 🥹</span>
+    </div>
+
+    <div class="first-pic-frame">
+      <img src="images/first2.jpg" alt="First Pic 2">
+      <span class="pic-label">Still Shy 🥰</span>
+    </div>
+
+    <div class="first-pic-frame">
+      <img src="images/first3.jpg" alt="First Pic 3">
+      <span class="pic-label">Falling for You ❤️</span>
+    </div>
+  </div>
+
+  <p class="first-pic-caption">
+    Three pictures… and I was already sure it was you 💕
+  </p>
+</div>
+
+<!-- Cute vs Funny Her -->
+<div class="switch-pic-section">
+  <h2>😇 You are Adorable 🥰</h2>
+
+  <div class="switch-pic-frame">
+    <img id="herPic" src="images/her-good.jpg" alt="Her Pic">
+  </div>
+
+  <button id="toggleBtn" onclick="changeHerPic()">
+    I like you when you look like this but😍 Click me
+  </button>
+
+  <p id="picCaption" class="pic-caption">
+    My heart skips a beat every time ❤️
+  </p>
+</div>
+
+
+
+
+    <!-- Love note -->
+    <div class="love-note">
+      <p>
+        From the moment you said *yes*,  
+        my life became cuter, brighter, and a little crazier 😝
+        <br><br>
+        I cann't express how I felt when we hold our hands for the first time each other at pondi beach. Actually that was the first time I am holding a girl hand, since then I crave for your touch😫, even a small hand touch from you while walking makes me feel butterflies🥰,  I din't said you this before but now I am saying, grab and hold my hand when we are walking together or talking while sitting together, that makes me feel more happy🥰
+        <br><br>
+        And ah mirror selfie vundhi ga, ah photo neetho tiskovali ani eppatinuncho vunde naku, finally ah roju mall lo kudirindhi☺️
+        <br><br>
+        And that day, manam bike lo beach ki elle apdu, nuv nannu hug cheskunnav kadha, apdu telisindhi nek kuda naa meedha feelings vunnai ani
+        <br><br>
+        Thank you for being my forever Valentine 💕 I luvv uuu sooo muchhh😚😚
+        <br><br>
+        I am waiting for, to bring you my home officially ☺️🥰 and I hope it will come sooner than we expected
+        <br><br>
+        --- Yours lovely future husband😛
+      </p>
+    </div>
+
+    <!-- Cute Button -->
+    <button onclick="showSurprise()">Click Here 💝</button>
+    <p id="surprise-text"></p>
+  </div>
+
+  <!-- Floating hearts -->
+  <div class="hearts"></div>
+  </div>
+
+  <audio id="bgMusic" loop>
+  <source src="music/love.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+</body>
+</html>
